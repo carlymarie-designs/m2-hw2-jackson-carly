@@ -1,0 +1,17 @@
+/*----------  Import custom Bootstrap  ----------*/
+
+@import "node_modules/bootstrap-scss/bootstrap";
+
+//enable shadows
+$enable-shadows: true;
+
+body {
+	background-color: fade-out(#ddd, .8);
+}
+
+#img-gallery img {
+	background-color: #fff;
+	width: 100%;
+	padding: 15px;
+	margin: 15px 0;
+}
